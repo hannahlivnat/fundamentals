@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:400,500,600,700');
+
+$primary-font: #0D2C40;;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+
+    h1, h2, a {
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-family: Raleway;
+        color: $primary-font;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 0 0 35px 0;
+    }
+
+    p {
+        font-family: "Droid Serif";
+        line-height: 26px;
+        font-size: 18px;
+    }
+
+    header {
+        background-color: #F15B31;
+        color: #ffffff;
+        padding: 30px 20px;
+
+        h1 {
+            font-family: Raleway;
+            color: #ffffff;
+            letter-spacing: 1px;
+            font-weight: 400;
+            font-size: 45px;
+            margin: 0;
+        }
+    }
+
+    nav {
+       background-color: #00A6B3;
+       color: #ffffff;
+       padding: 20px 0;
+       
+       a {
+        text-decoration: none;
+        font-family: Raleway;
+        color: #ffffff;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0 20px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    }
+
+    main {
+        width: 850px;
+        margin: 35px auto;
+
+        img {
+            margin: 40px 8px 0 8px;
+        }
+    }
+
+    footer {
+    text-align: left;
+    font-size: 10px;
+    margin: 10px;
+    }
+
+    
+}
