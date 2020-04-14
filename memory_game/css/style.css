@@ -60,10 +60,11 @@ body nav a {
   font-weight: 600;
   font-size: 18px;
   margin: 0 20px;
+  border-bottom: 2px solid transparent;
 }
 
 body nav a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid white !important;
 }
 
 body main {
@@ -76,8 +77,38 @@ body main img {
 }
 
 body footer {
-  text-align: left;
-  font-size: 10px;
-  margin: 10px;
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+body footer p {
+  font-family: Raleway;
+}
+
+body footer .copyright {
+  float: left;
+}
+
+body footer .message {
+  float: right;
+}
+
+body footer .message .name {
+  color: #F15B31;
+  font-weight: 700;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 /*# sourceMappingURL=style.css.map */

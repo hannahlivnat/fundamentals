@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700");
 @import url('https://fonts.googleapis.com/css2?family=Bitter:400,500,600,700');
 
-$primary-font: #0D2C40;;
+$primary-color: #0D2C40;;
 
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ body {
 
     h2 {
         font-family: Raleway;
-        color: $primary-font;
+        color: $primary-color;
         letter-spacing: 1px;
         font-weight: 600;
         font-size: 20px;
@@ -52,20 +52,20 @@ body {
        color: #ffffff;
        padding: 20px 0;
        
-       a {
-        text-decoration: none;
-        font-family: Raleway;
-        color: #ffffff;
-        letter-spacing: 1px;
-        font-weight: 600;
-        font-size: 18px;
-        margin: 0 20px;
+        a {
+            text-decoration: none;
+            font-family: Raleway;
+            color: #ffffff;
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 0 20px;
+            border-bottom: 2px solid transparent;
 
-        &:hover {
-            text-decoration: underline;
+            &:hover {
+                border-bottom: 2px solid white !important;
+            }
         }
-    }
-
     }
 
     main {
@@ -78,10 +78,38 @@ body {
     }
 
     footer {
-    text-align: left;
-    font-size: 10px;
-    margin: 10px;
-    }
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: $primary-color;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
 
-    
+        p {
+            font-family: Raleway;
+        }
+
+        .copyright {
+            float: left;
+        }
+        
+        .message {
+            float: right; 
+
+            .name {
+                color: #F15B31;
+                font-weight: 700;
+            }
+        }
+    } 
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
 }
