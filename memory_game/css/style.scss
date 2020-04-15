@@ -79,13 +79,15 @@ body {
 
     footer {
     text-transform: uppercase;
-    padding: 0 20px;
+    padding: 5px 20px;
     background-color: $primary-color;
     color: white;
     font-size: 14px;
     letter-spacing: .08em;
     font-weight: 500;
-
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
         p {
             font-family: Raleway;
         }
