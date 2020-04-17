@@ -17,12 +17,12 @@
     <main>
         <h2>Instructions</h2>
         <p id="instructions-paragraph">Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Paris, is a card game in which all the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-        <div id="game-section">
-            <img src="images/back.png" alt="Queen of Diamonds">
-            <img src="images/back.png" alt="Queen of Hearts">
-            <img src="images/back.png" alt="King of Diamonds">
-            <img src="images/back.png" alt="King of Hearts">
+        <div class="score-board" id="score-board">
+            <p>User Score: <span id="score-number"> 0</span></p>
+            <p id="game-updates"></p>
         </div>
+        <div id="game-board" class="board clearfix"></div>
+        <span><button id="reset-cards">Reset Cards</button></span><button id="shuffle-cards">Shuffle Cards</button><span><button id="reset-game">Reset Game</button></button></span>
     </main>
     <footer class="clearfix">
         <p class="copyright">Copyright 2017</p>

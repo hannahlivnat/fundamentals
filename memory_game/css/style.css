@@ -31,8 +31,25 @@ body p {
   font-size: 18px;
 }
 
+body button {
+  margin: 2em 1em;
+  padding: .5em;
+  background-color: #F15831;
+  color: #fff;
+  font-size: 1em;
+  font-family: Raleway;
+  -webkit-transition: ease-in-out .5s;
+  transition: ease-in-out .5s;
+}
+
+body button:hover {
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: .6em;
+}
+
 body header {
-  background-color: #F15B31;
+  background-color: #F15831;
   color: #ffffff;
   padding: 30px 20px;
 }
@@ -72,8 +89,24 @@ body main {
   margin: 35px auto;
 }
 
+body main .score-board {
+  margin: 2em 0;
+  padding: 20px 0;
+  background-color: #00A6B3;
+}
+
+body main .score-board p {
+  font-size: 25px;
+  color: #ffffff;
+  margin: .5em 0;
+}
+
 body main img {
   margin: 40px 8px 0 8px;
+}
+
+body main img:hover {
+  cursor: pointer;
 }
 
 body footer {
@@ -102,7 +135,7 @@ body footer .message {
 }
 
 body footer .message .name {
-  color: #F15B31;
+  color: #F15831;
   font-weight: 700;
 }
 
